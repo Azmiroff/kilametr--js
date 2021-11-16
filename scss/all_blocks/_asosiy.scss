@@ -1,0 +1,43 @@
+
+.speed__header-text{
+    text-align: center;
+}   
+
+#site_form{
+    margin-left: 40%;
+}
+
+#distance{
+    background-color: aqua;
+    border-color: white;
+    padding-left: 15px;
+    padding-right: 35px;
+    padding-top: 5px;
+
+    &:hover{
+        background-color: white;
+    }
+}
+
+
+#submit_btn{
+    background-color: aqua;
+    border-color: white;
+    padding-top: 5px;
+
+    &:hover{
+        background-color: white;
+    }
+    
+}
+
+.speed__list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.speed__list-item{
+    text-decoration: none;
+    text-align: center;
+}

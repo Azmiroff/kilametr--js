@@ -5,9 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Table</title>
+    <link rel="stylesheet" href="./scss/main.scss">
+    <title>Document</title>
 </head>
 <body>
-   
+    <div class="container">
+        <section>
+
+            <h1 class="speed__header-text"> How much time do you spend?</h1>
+
+            <form method="GET" id="site_form">
+                <input type="text" name="distance_value" id="distance" >
+                <button type="submit" id="submit_btn">Jo'natish</button>
+            </form>
+    
+            <ul class="speed__list">
+                
+                <li  class="speed__list-item">
+                    <img src="./images/personimg.svg" alt="PERSONAL" width="250" height="250">
+                    <h3>PERSON SPEED</h3>
+                    <span id="on_person"></span>
+                </li>
+                
+                <li  class="speed__list-item">
+                    <img src="./images/bicycle-2026559_960_720.png" alt="PERSONAL" width="250" height="250">
+                    <h3>BIKE SPEED</h3>
+                    <span id="by_bike"></span>
+                </li>
+
+                <li  class="speed__list-item">
+                    <img src="./images/car img.png" alt="PERSONAL" width="250" height="250">
+                    <h3>CAR SPEED</h3>
+                    <span id="by_car"></span>
+                </li>
+
+                <li  class="speed__list-item">
+                    <img src="./images/airplane.png" alt="PERSONAL" width="250" height="250">
+                    <h3>PLANE SPEED</h3>
+                    <span id="by_plane"></span>
+                </li>
+
+            </ul>
+        </section>
+    </div>
+
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
